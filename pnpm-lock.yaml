@@ -329,7 +329,7 @@ importers:
         specifier: catalog:prod
         version: 1.3.0
     devDependencies:
-      '@achesnokov/eslint-config':
+      '@anatolychesnokov/eslint-config':
         specifier: workspace:*
         version: 'link:'
       '@antfu/ni':
