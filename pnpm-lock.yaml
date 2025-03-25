@@ -141,8 +141,8 @@ catalogs:
       specifier: ^2.0.0
       version: 2.0.0
     eslint-plugin-achesnokov:
-      specifier: ^0.1.2
-      version: 0.1.2
+      specifier: ^1.0.1
+      version: 1.0.1
     eslint-plugin-command:
       specifier: ^3.2.0
       version: 3.2.0
@@ -261,7 +261,7 @@ importers:
         version: 2.0.0(eslint@9.23.0(jiti@2.4.2))
       eslint-plugin-achesnokov:
         specifier: catalog:prod
-        version: 0.1.2(eslint@9.23.0(jiti@2.4.2))
+        version: 1.0.1(eslint@9.23.0(jiti@2.4.2))
       eslint-plugin-command:
         specifier: catalog:prod
         version: 3.2.0(eslint@9.23.0(jiti@2.4.2))
@@ -1619,8 +1619,8 @@ packages:
   eslint-parser-plain@0.1.1:
     resolution: {integrity: sha512-KRgd6wuxH4U8kczqPp+Oyk4irThIhHWxgFgLDtpgjUGVIS3wGrJntvZW/p6hHq1T4FOwnOtCNkvAI4Kr+mQ/Hw==}
 
-  eslint-plugin-achesnokov@0.1.2:
-    resolution: {integrity: sha512-cXElWUkrEHoRvH1Mid6klPsy0hWHDPjaKY120juMA03ZiRVxPcbHULhBAb0U9THcCJ6U58013Y2cQS6BhV4YpQ==}
+  eslint-plugin-achesnokov@1.0.1:
+    resolution: {integrity: sha512-x6QspYi4i6I6mY+vCeUL3o8XfVTQC6+lQZgo0iVWfLQDx9z2cYqh/z/yJXlBT3/Skz+ITebWOPRBgZCUObYXIg==}
     peerDependencies:
       eslint: ^9.23.0
 
@@ -4511,7 +4511,7 @@ snapshots:
 
   eslint-parser-plain@0.1.1: {}
 
-  eslint-plugin-achesnokov@0.1.2(eslint@9.23.0(jiti@2.4.2)):
+  eslint-plugin-achesnokov@1.0.1(eslint@9.23.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.23.0(jiti@2.4.2)
 
