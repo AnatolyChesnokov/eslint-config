@@ -1,7 +1,7 @@
 {
   "name": "@achesnokov/eslint-config",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packageManager": "pnpm@10.6.2+sha256.20072a1f6edd17646ea9234bf32c42d563dad37b2973e97a2dde5c17774a824d",
   "description": "Anatoly's ESLint config",
   "author": "Anatoly Chesnokov <anatolyches@gmail.com> (https://github.com/AnatolyChesnokov/)",
@@ -36,7 +36,7 @@
     "lint": "eslint",
     "gen": "tsx scripts/typegen.ts && tsx scripts/versiongen.ts",
     "prepack": "nr build",
-    "release": "bumpp && pnpm publish",
+    "release": "bumpp && pnpm publish --access=public",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
