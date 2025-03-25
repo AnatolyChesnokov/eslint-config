@@ -141,6 +141,7 @@
     "yaml-eslint-parser": "catalog:prod"
   },
   "devDependencies": {
+    "@anatolychesnokov/eslint-config": "workspace:*",
     "@antfu/ni": "catalog:dev",
     "@eslint-react/eslint-plugin": "catalog:peer",
     "@eslint/config-inspector": "catalog:dev",
