@@ -123,7 +123,7 @@ function runWithConfig(name: string, configs: OptionsConfig, ...items: TypedFlat
     })
     await fs.writeFile(join(target, 'eslint.config.js'), `
 // @eslint-disable
-import achesnokov from '@achesnokov/eslint-config'
+import achesnokov from '@anatolychesnokov/eslint-config'
 
 export default achesnokov(
   ${JSON.stringify(configs)},

@@ -15,7 +15,7 @@ export function getEslintConfigContent(
   additionalConfigs?: string[],
 ): string {
   return `
-import achesnokov from '@achesnokov/eslint-config'
+import achesnokov from '@anatolychesnokov/eslint-config'
 
 export default achesnokov({
 ${mainConfig}
