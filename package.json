@@ -1,7 +1,7 @@
 {
   "name": "@anatolychesnokov/eslint-config",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "packageManager": "pnpm@10.6.2+sha256.20072a1f6edd17646ea9234bf32c42d563dad37b2973e97a2dde5c17774a824d",
   "description": "Anatoly's ESLint config",
   "author": "Anatoly Chesnokov <anatolyches@gmail.com> (https://github.com/AnatolyChesnokov/)",
@@ -28,11 +28,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "nr gen && tsup --clean --dts",
-    "stub": "tsup",
+    "build": "nr gen && tsdown --clean --dts",
+    "stub": "tsdown",
     "dev": "npx @eslint/config-inspector --config eslint.config.ts",
     "build:inspector": "pnpm build && npx @eslint/config-inspector build",
-    "watch": "tsup --watch",
+    "watch": "tsdown --watch",
     "lint": "eslint",
     "gen": "tsx scripts/typegen.ts && tsx scripts/versiongen.ts",
     "prepack": "nr build",
@@ -170,7 +170,7 @@
     "svelte": "catalog:peer",
     "svelte-eslint-parser": "catalog:peer",
     "tinyglobby": "catalog:dev",
-    "tsup": "catalog:dev",
+    "tsdown": "catalog:dev",
     "tsx": "catalog:dev",
     "typescript": "catalog:dev",
     "vitest": "catalog:dev",
